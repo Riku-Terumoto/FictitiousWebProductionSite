@@ -5,6 +5,7 @@
 html {
     color: #000;
     background: #fff;
+    font-size: 62.5%;
   }
   
   body,
@@ -31,7 +32,8 @@ html {
   p,
   blockquote,
   th,
-  td {
+  td,
+  figure {
     margin: 0;
     padding: 0;
   }
@@ -47,7 +49,6 @@ html {
     border: 0;
   }
   
-  ​
   
   address,
   caption,
@@ -113,8 +114,8 @@ html {
     font-size: 100%;
     border-radius: 0;
     border: none;
-    appearance: none;
-    -webkit-appearance: none;
+    /* appearance: none; */
+    /* -webkit-appearance: none; */
     background-color: inherit;
   }
 

@@ -1,0 +1,77 @@
+.price {
+    background: #EEFBFB 0% 0% no-repeat padding-box;
+    height: 744px;
+    &__inner {
+        padding: 55px 0 68px;
+        text-align: center;
+    }
+
+    &__level2-heading {
+        padding-top: 11px;
+        font-size: map-get($fsz, 16);
+        color: #3BA6C9;
+    }
+
+    &__detail {
+        text-align: left;
+        margin: 70px auto 36px;
+        width: 926px;
+        height: 410px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #E5E5E5;
+        box-shadow: 0px 3px 6px #00000029;
+
+        .price__top-p {
+            th {
+                font-size: map-get($fsz, 16);
+                padding-left: 19px;
+                width: 290.5px;
+            }
+
+            td {
+                font-size: map-get($fsz, 16);
+                padding-left: 30.5px;
+            }
+        }
+        .price__underlayer-p {
+            th {
+                font-size: map-get($fsz, 16);
+                padding-left: 19px;
+                width: 290.5px;
+            }
+
+            td {
+                font-size: map-get($fsz, 16);
+                padding-left: 30.5px;
+            }
+        }
+        .price__wp-top-p {
+            th {
+                font-size: map-get($fsz, 16);
+                padding-left: 19px;
+                width: 290.5px;
+            }
+
+            td {
+                font-size: map-get($fsz, 16);
+                padding-left: 30.5px;
+            }
+        }
+        .price__wp-underlayer-p {
+            th {
+                font-size: map-get($fsz, 16);
+                padding-left: 19px;
+                width: 290.5px;
+            }
+
+            td {
+                font-size: map-get($fsz, 16);
+                padding-left: 30.5px;
+            }
+        }
+    }
+
+    .annotation {
+        font-size: map-get($fsz, 16);
+    }
+}

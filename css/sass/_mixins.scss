@@ -1,0 +1,12 @@
+@mixin btn {
+    width: 155px;
+    height: 37px;
+    font-size: map-get($fsz, 14);
+    background: transparent linear-gradient(90deg, #FA41CC 0%, #6020B0 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 2.6;
+    font-weight: bold;
+    color: #FFF;
+}

@@ -1,0 +1,36 @@
+.top {
+    height: 674px;
+    padding-top: 94px;
+    &__inner {
+        display: map-get($dsp, f);
+        justify-content: space-between;
+        padding-top: 131px;
+    }
+
+    &__img-1 {
+        position: absolute;
+        //bodyが基準となっている
+        z-index: -1;
+        top: -50px;
+        right: -100px;
+    }
+
+    &-explanation {
+        display:  map-get($dsp, f);
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    &__heading {
+        padding-top: 28px;
+    }
+
+    &__text {
+        padding-top: 44px;
+    }
+
+    &__btn {
+        margin-top: 45px;
+    }
+
+}

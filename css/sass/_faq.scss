@@ -1,0 +1,75 @@
+.faq {
+    &__inner {
+        padding: 55px 0 86px;
+        text-align: center;
+    }
+
+    &__level1-heading {
+        font-size: map-get($fsz, 32);
+    }
+
+    &__level2-heading {
+        font-size: map-get($fsz, 16);
+        color: #3BA6C9;
+        margin-top: 11px;
+    }
+}
+
+.accordion {
+    margin-top: 32px;
+    font-size: map-get($fsz, 14);
+    &__title {
+        border: 1px solid #E5E5E5;
+        width: 907px;
+        height: 58px;
+        margin: 0 auto;
+        line-height: 58px;
+    }
+
+    &__btn {
+        cursor: pointer;
+    }
+    
+    &__text {
+        border: 1px solid #E5E5E5;
+        width: 907px;
+        height: 93px;
+        background: #F2F2F2 0% 0% no-repeat padding-box;
+        margin: 0 auto;
+        text-align: left;
+        padding-left: 35px;
+        display: none;
+    }
+
+    &__text:nth-child(1) {
+        padding-top: 17px;
+        line-height: 2;
+    }
+
+    &__text:nth-child(2) {
+        padding-top: 22px;
+    }
+
+    &__text:nth-child(3) {
+        padding-top: 24px;
+        line-height: 2;
+    }
+
+    &__body--active {
+        .accordion__text {
+            display: block;
+            animation: .3s fadeIn;
+        }
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        100% {
+            opacity: 1;
+            transform: none;
+        }
+    }
+}

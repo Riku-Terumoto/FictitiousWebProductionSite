@@ -1,0 +1,22 @@
+.blog {
+    text-align: center;
+    background: #EEFBFB 0% 0% no-repeat padding-box;
+    padding: 55px 0 91px;
+
+    &__level2-heading {
+        padding-top: 11px;
+        color: #3BA6C9;
+        font-size: map-get($fsz, 16);
+    }
+
+    &__inner {
+        display: map-get($dsp, f);
+        justify-content: center;
+        text-align: left;
+        gap: 30px;
+        margin-top: 54px;
+    }
+}
+
+
+    

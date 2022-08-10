@@ -1,0 +1,107 @@
+.contact {
+    text-align: center;
+    background: transparent linear-gradient(90deg, #05A5FA 0%, #63FBD7 100%, #67FFD6 100%) 0% 0% no-repeat padding-box;
+    padding: 63px 0 70px;
+
+    &__form {
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        width: 908px;
+        height: 689px;
+        margin: 44px auto 0;
+    }
+
+    &__level1-heading {
+        color: #fff;
+    }
+
+    &__level2-heading {
+        color: #fff;
+        font-size: map-get($fsz, 16);
+        padding-top: 7px;
+    }
+
+    &__text {
+        color: #fff;
+        font-size: map-get($fsz, 16);
+        padding-top: 36px;
+    }
+
+    &__label {
+        text-align: left;
+        padding-left: 62px;
+    }
+}
+
+.form-box {
+    display: map-get($dsp, f);
+    flex-direction: column;
+}
+
+.form-box--diplay-inline {
+    flex-direction: row;
+}
+
+.form-box--center {
+    justify-content: center;
+    align-items: center;
+}
+
+.label--padding-top {
+    padding-top: 31px;
+}
+
+.required--margin-left {
+    margin-left: 23px;
+}
+
+.form-box--gap {
+    gap: 10px;
+}
+
+.btn--margin-top {
+    margin-top: 30px;
+}
+
+
+.name, 
+.email, 
+.msg {
+    background: #EEFBFB 0% 0% no-repeat padding-box;
+    margin: 35px 0 27px 62px;
+}
+
+.name,
+.email {
+    width: 499px;
+    height: 43px;
+}
+
+
+.email--margin-bottom {
+    margin-bottom: 19px;
+}
+
+.msg {
+    width: 783px;
+    height: 179px;
+}
+
+.check {
+    width: 20px;
+    height: 20px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+}
+
+
+.end-message {
+    display: none;
+    margin-top: 30px;
+}
+  
+.false-message {
+    display: none;
+    margin-top: 30px;
+}
+

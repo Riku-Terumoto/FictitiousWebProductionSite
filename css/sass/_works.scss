@@ -1,0 +1,41 @@
+.works {
+    text-align: center;
+    padding: 55px 0 90px;
+    &__level2-heading {
+        font-size: map-get($fsz, 16);
+        color: #3BA6C9;
+        margin-top: 11px;
+    }
+
+
+}
+
+.swiper {
+    overflow: visible;
+    max-width: 322px;
+    margin: 68px auto 0;
+}
+
+
+
+.card {
+    text-align: left;
+    &--layout-inline {
+        width: 322px;
+        height: 407px;
+    }
+
+    &__body--padding {
+        padding: 19px 0 0 18px;
+    }
+
+    &__text--font-size {
+        font-size: map-get($fsz, 16);
+    }
+
+    &__detail {
+        font-size: map-get($fsz, 14);
+        padding-top: 30px;
+        letter-spacing: 1px;
+    }
+}

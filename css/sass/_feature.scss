@@ -1,0 +1,111 @@
+.feature {
+    &__inner {
+        text-align: center;
+    }
+
+    &__level1-heading {
+        margin-top: 71px;
+    }
+
+    &__level2-heading {
+        color: #3BA6C9;
+        font-size: map-get($fsz, 16);
+        margin-top: 10px;
+    }
+
+    &-detail {
+        display: map-get($dsp, f);
+        margin-top: 49px;
+        justify-content: center;
+    }
+
+    &-detail__img {
+        padding-left: 20px;
+    }
+
+    &-detail__text {
+        text-align: left;
+    }
+
+    &-place1 {
+        .feature-detail {
+            gap: 157px;
+            padding-left: 20px;
+        }
+
+        &__level3-heading {
+            font-size: map-get($fsz, 28);
+            margin-top: 57px;
+        }
+    
+        &__level4-heading {
+            font-size: map-get($fsz, 24);
+            padding-top: 47px;
+            line-height: 2;
+            white-space: nowrap;
+        }
+    
+        &__text {
+            padding-top: 45px;
+        }
+    }
+
+
+
+
+    &-place2 {
+        .feature-detail {
+            flex-direction: row-reverse;
+            gap: 84px;
+            padding-left: 49px;
+        }
+
+        &__level3-heading {
+            font-size: map-get($fsz, 28);
+            margin-top: 86px;
+        }
+
+        &__level4-heading {
+            font-size: map-get($fsz, 24);
+            padding-top: 2px;
+            line-height: 2;
+        }
+
+        &__text {
+            padding-top: 40px;
+            white-space: nowrap;
+        }
+
+
+    }
+
+    &-place3 {
+        .feature-detail {
+            margin-bottom: 154px;
+            gap: 179px;
+        }
+
+        &__level3-heading {
+            font-size: map-get($fsz, 28);
+            margin-top: 136px;
+        }
+
+        &__level4-heading {
+            font-size: map-get($fsz, 24);
+            padding-top: 20px;
+            line-height: 2;
+        }
+
+        &__text {
+            padding-top: 33px;
+        }
+
+
+    }
+
+}
+
+
+
+// featureの部分は個別で余白のピクセルが異なっているが、
+// とりあえず全て同一で考えて進める後で微調整する

@@ -1,0 +1,21 @@
+.footer {
+    height: 244px;
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+    text-align: center;
+    &__text {
+        display: map-get($dsp, f);
+        justify-content: center;
+        gap: 29px;
+        padding: 21px 0 52px;
+    }
+
+    &__level1-heading {
+        font-size: map-get($fsz, 24);
+        padding-top: 43px;
+    }
+}
+
+.company {
+    font-weight: normal;
+    font-size: map-get($fsz, 14);
+}
